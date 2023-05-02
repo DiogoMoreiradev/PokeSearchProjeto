@@ -1,0 +1,32 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.h1 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(214, 140, 29);
+    font-size: 48px;
+    border-bottom: 2px solid rgb(214, 140, 29);
+}
+.container_about {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.container_about p {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 40px;
+    max-width: 600px;
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+}
+.container_about span {
+    color: rgb(255, 0, 0);
+}
+.container {
+    background-color: #0A2647;
+}

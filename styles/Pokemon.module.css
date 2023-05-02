@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Jetfast-Medium';
+    src: local('Jetfast-Medium'), url("../public/fonts/Jetfast-Medium.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'TangoSans_Bold';
+    src: local('TangoSans_Bold'), url("../public/fonts/TangoSans_Bold.ttf") format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+.container {
+    padding: 30px;
+    height: 100vh;
+    background-color: #5B8FB9;
+}
+.container_poke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(220, 20, 60);
+    width: 460px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.container_poke h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    font-family: 'TangoSans_Bold';
+}
+.info {
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom-left-radius:50% ;
+    border-bottom-right-radius:50% ;
+    padding: 30px;
+}
+.info h3 {
+    color: black;
+    font-family: 'Vina Sans', cursive;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.type {
+    margin: 10px;
+    color: #fff;
+    background: #000;
+    padding: 15px;
+    border-radius: 20px;
+}
+.type_normal {
+    background-color: #aa9;
+  }
+  
+  .type_fire {
+    background-color: #f42;
+  }
+  
+  .type_water {
+    background-color: rgb(55, 139, 223);
+  }
+  
+  .type_electric {
+    background-color: rgb(241, 205, 95);
+  }
+  
+  .type_grass {
+    background-color: #7c5;
+  }
+  
+  .type_ice {
+    background-color: #6cf;
+  }
+  
+  .type_fighting {
+    background-color: #b54;
+  }
+  
+  .type_poison {
+    background-color: rgb(158, 31, 184);
+  }
+  
+  .type_ground {
+    background-color: #db5;
+  }
+  
+  .type_flying {
+    background-color: #89f;
+  }
+  
+  .type_psychic {
+    background-color: #f59;
+  }
+  
+  .type_bug {
+    background-color: #ab2;
+  }
+  
+  .type_rock {
+    background-color: #ba6;
+  }
+  
+  .type_ghost {
+    background-color: #66b;
+  }
+  
+  .type_dragon {
+    background-color: #76e;
+  }
+  
+  .type_dark {
+    background-color: #754;
+  }
+  
+  .type_steel {
+    background-color: #aab;
+  }
+  
+  .type_fairy {
+    background-color: #e9e;
+  }
+.quit {
+    padding: 5px 10px;
+    background-color: #EB455F;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+.info_poke {
+    margin-top: 30px;
+    display: flex;
+
+}
+.quit:hover {
+    background-color: #8b434d;
+}

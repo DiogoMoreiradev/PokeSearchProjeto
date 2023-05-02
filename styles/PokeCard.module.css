@@ -1,0 +1,37 @@
+.card {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 20px;
+    transition: 0.3s ease;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.card:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 48, 48);
+}
+.card h3 {
+    font-size: 20px;
+    background-color: #05BFDB;
+    color: #ffff;
+    padding: 10px;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.button:hover {
+    background-color: rgb(105, 31, 31);
+}
