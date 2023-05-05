@@ -19,13 +19,12 @@ import Footer from '../components/Footer';
      },
    }
 }
- 
+
  export default function Home({pokemons}) {
    return (
      <> 
      <Navbar />
        <div className={styles.container}>
-     <input className={styles.search} placeholder='Pesquise seu pokémon' />
          {pokemons.map((pokemon) => (
            <PokeCard key={pokemon.id} pokemon={pokemon} />
          ))}

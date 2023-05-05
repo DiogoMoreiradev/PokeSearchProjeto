@@ -22,7 +22,7 @@ export default function About() {
             <h1 className={styles.h1} >Como Funciona?</h1>
         </div>
         <div className={styles.container_about}>
-            <p>O projeto funciona como uma <span>pokedex</span>, procure o <span>pokémon</span> que deseja scrollando a página ou pesquisando no input, depois clique em <span>mais detalhes</span> para ver sobre aquele pokémon. </p>
+            <p>O projeto funciona como uma <span>pokedex</span>, procure o <span>pokémon</span> que deseja scrollando a página, depois clique em <span>mais detalhes</span> para ver sobre aquele pokémon. </p>
             <Image src="/images/charizard.png" width={300} height={300}/>
         </div>
         <Footer />

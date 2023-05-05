@@ -8,18 +8,3 @@
     background-color: #05BFDB;
     padding: 10px;
 }
-.search {
-    width: 500px;
-    padding: 20px;
-    border: none;
-    background-color: #E94560;
-    font-size: 30px;
-    color: #fff;
-}
-.search:focus{
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
-.search::placeholder {
-    color: rgb(207, 197, 197);
-}
